@@ -1,0 +1,33 @@
+.memeText {
+  position: relative;
+}
+
+.memeText img {
+  max-width: 300px;
+  border: #fff solid 2px;
+}
+
+.memeText p {
+  font-family: Impact, Charcoal, sans-serif;
+  color: #fff;
+}
+
+.upperText,
+.lowerText p {
+  margin-top: 10px;
+}
+
+.frame-color {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.frame-color img {
+  width: 10%;
+}
+
+div .frame-color span:hover {
+  cursor: pointer;
+}
